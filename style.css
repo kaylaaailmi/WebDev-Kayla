@@ -1,0 +1,79 @@
+.title{
+    font-style: italic;
+    font-style: 900;
+    text-align: center;
+    background-color: pink;
+    box-shadow: 3px 7px 10px grey;
+    color:grey;
+    font-family:fantasy;
+}
+
+p{
+    text-align: justify;
+    color:pink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section{
+    margin-bottom: 20px;
+    /* ini untuk jarak batas antara bawah dengan next section */
+    box-shadow: 3px 5px 10px black;
+}
+body {
+    background-color: rgb(213, 202, 184) ;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: rgb(241, 236, 228);
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Photo-Profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid brown;
+}
+
+.nama {
+    color: #222;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.status {
+    color: burlywood;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bio {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
